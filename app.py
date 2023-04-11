@@ -18,6 +18,10 @@ def myhome():
         z = request.form["std_email"]
         print(x,y,z)
         db.student.insert_one({'name':x , 'age':int(y) , 'email': z})
+        if 10 = 10:
+            print("All OK")
+        if 10 == 10:
+            print("All OK")
     return render_template("home.html")
 
 @app.route("/get_data" , methods=['GET'])
